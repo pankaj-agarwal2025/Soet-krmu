@@ -416,7 +416,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://alumini-portal-z1fw.onrender.com">
+                  <Link href="https://ams-krmu-thakranrishi94s-projects.vercel.app/">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
                     Access Alumni Portal
                   </Button></Link>
