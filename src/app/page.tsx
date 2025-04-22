@@ -254,7 +254,7 @@ export default function Home() {
                       <p>Advanced studies in distributed systems, cybersecurity, cloud computing, and emerging technologies with research opportunities.</p>
                     </CardContent>
                     <CardFooter>
-                      <Button variant="outline" className="w-full">View Details</Button>
+                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
                     </CardFooter>
                   </Card>
                   
@@ -267,7 +267,7 @@ export default function Home() {
                       <p>Specialized program covering big data analytics, machine learning, statistical analysis, and data visualization techniques.</p>
                     </CardContent>
                     <CardFooter>
-                      <Button variant="outline" className="w-full">View Details</Button>
+                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
                     </CardFooter>
                   </Card>
                   
@@ -280,7 +280,7 @@ export default function Home() {
                       <p>Focus on connected devices, sensor networks, embedded programming, and smart system design with industry collaborations.</p>
                     </CardContent>
                     <CardFooter>
-                      <Button variant="outline" className="w-full">View Details</Button>
+                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
                     </CardFooter>
                   </Card>
                   
@@ -293,7 +293,7 @@ export default function Home() {
                       <p>Doctoral research opportunities across multiple engineering disciplines with dedicated mentorship and funding options.</p>
                     </CardContent>
                     <CardFooter>
-                      <Button variant="outline" className="w-full">View Details</Button>
+                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
                     </CardFooter>
                   </Card>
                 </div>
@@ -417,6 +417,41 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Link href="https://ams-krmu-thakranrishi94s-projects.vercel.app/">
+                  <Button  className="w-full bg-purple-600 hover:bg-purple-700">
+                    Access Alumni Portal
+                  </Button></Link>
+                </CardFooter>
+              </Card>
+              <Card className="border-t-4 border-t-purple-600 hover:shadow-lg transition-shadow duration-300">
+                <CardHeader className="pb-2">
+                  <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                    <Users className="text-purple-600" size={24} />
+                  </div>
+                  <CardTitle>CampusWay-Counselor</CardTitle>
+                  <CardDescription>Guide applicants through the admission process</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <ArrowRight size={16} className="mr-2 text-purple-600" />
+                      Track candidate progress from application to interview
+                    </li>
+                    <li className="flex items-center">
+                      <ArrowRight size={16} className="mr-2 text-purple-600" />
+                      Assist in scheduling interviews with faculty
+                    </li>
+                    <li className="flex items-center">
+                      <ArrowRight size={16} className="mr-2 text-purple-600" />
+                      Ensure candidates complete MCQ tests on time
+                    </li>
+                    <li className="flex items-center">
+                      <ArrowRight size={16} className="mr-2 text-purple-600" />
+                      Career advancement resources
+                    </li>
+                  </ul>
+                </CardContent>
+                <CardFooter>
+                  <Link href="https://krmu-enrollment.vercel.app/counsellor/login">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
                     Access Alumni Portal
                   </Button></Link>
