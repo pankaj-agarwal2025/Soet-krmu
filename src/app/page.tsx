@@ -379,7 +379,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://campusconnectkrmu.onrender.com/">
+                  <Link href="https://cdc-portal-zv4g.onrender.com">
                   <Button className="w-full bg-green-600 hover:bg-green-700">
                     Access CDC Portal
                   </Button></Link>
@@ -416,12 +416,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://ams-krmu-thakranrishi94s-projects.vercel.app/">
+                  <Link href="https://alumini-portal-z1fw.onrender.com">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
                     Access Alumni Portal
                   </Button></Link>
                 </CardFooter>
               </Card>
+              
             </div>
           </div>
         </section>
