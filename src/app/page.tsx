@@ -584,7 +584,7 @@ export default function Home() {
                 <CardFooter>
                   <Link href="https://krmu-enrollment.vercel.app/counsellor/login">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
-                    Access Alumni Portal
+                    Access Counselor Portal
                   </Button></Link>
                 </CardFooter>
               </Card>
