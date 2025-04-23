@@ -100,15 +100,23 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg">
-                <Image 
-                  src="/krmu.jpg" 
-                  alt="KR Mangalam University Campus" 
-                  className="rounded-lg w-full shadow-lg"
-                  height={100}
-                  width={150}
-                />
-              </div>
+            <div className="relative rounded-lg overflow-hidden shadow-lg">
+  <Image 
+    src="/kr.jpeg" 
+    alt="KR Mangalam University Campus" 
+    className="w-full h-auto object-cover" 
+    width={1200} // High-res width
+    height={600} // Adjust as needed
+    priority 
+  />
+  {/* Optional Overlay - only if you want */}
+  <div className="absolute inset-0 bg-black/20" />
+  {/* Optional Text */}
+  <div className="absolute bottom-4 left-4 text-white text-xl font-semibold drop-shadow-md">
+    KR Mangalam University
+  </div>
+</div>
+
             </div>
           </div>
         </section>
@@ -582,9 +590,9 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://krmu-enrollment.vercel.app/counsellor/login">
+                  <Link href="https://admitdesk.soet-krmu.com/counsellor/login">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
-                    Access Counselor Portal
+                    Access Counselor/Teacher Portal
                   </Button></Link>
                 </CardFooter>
               </Card>
@@ -606,21 +614,26 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {/* Faculty Member 1 */}
               <div className="text-center">
-                <div className="mb-4 rounded-full overflow-hidden mx-auto w-32 h-32">
-                  <Image src="/pankaj.webp" alt="Professor" className="w-full h-full object-cover"   height={50}
-                  width={50}/>
-                
-                </div>
-                <h3 className="font-bold text-lg">Dr. Pankaj Agarwal</h3>
-                <p className="text-blue-800">Professor & Dean – Engineering & Technology</p>
-                <p className="text-sm text-gray-600">Ph.D. in Computer Science</p>
-              </div>
+  <div className="mb-4 rounded-full overflow-hidden mx-auto w-32 h-32">
+    <Image 
+      src="/pankaj.webp" 
+      alt="Professor" 
+      className="w-full h-full object-cover" 
+      width={128}
+      height={128}
+    />
+  </div>
+  <h3 className="font-bold text-lg">Dr. Pankaj Agarwal</h3>
+  <p className="text-blue-800">Professor & Dean – Engineering & Technology</p>
+  <p className="text-sm text-gray-600">Ph.D. in Computer Science</p>
+</div>
+
 
               {/* Faculty Member 2 */}
               <div className="text-center">
                 <div className="mb-4 rounded-full overflow-hidden mx-auto w-32 h-32">
-                  <Image src="/shweta.webp" alt="Professor" className="w-full h-full object-cover"   height={50}
-                  width={50}/>
+                  <Image src="/shweta.webp" alt="Professor" className="w-full h-full object-cover"    width={128}
+      height={128}/>
                 </div>
                 <h3 className="font-bold text-lg">Dr. Shweta Bansal</h3>
                 <p className="text-blue-800">HOD, Associate Professor – Engineering & Technology</p>
@@ -630,8 +643,8 @@ export default function Home() {
               {/* Faculty Member 3 */}
               <div className="text-center">
                 <div className="mb-4 rounded-full overflow-hidden mx-auto w-32 h-32">
-                  <Image src="/amar.webp" alt="Professor" className="w-full h-full object-cover"   height={50}
-                  width={50}/>
+                  <Image src="/amar.webp" alt="Professor" className="w-full h-full object-cover"    width={128}
+      height={128}/>
                 </div>
                 <h3 className="font-bold text-lg">Dr. Amar Saraswat</h3>
                 <p className="text-blue-800">Assistant Professor – Engineering & Technology</p>
@@ -641,8 +654,8 @@ export default function Home() {
               {/* Faculty Member 4 */}
               <div className="text-center">
                 <div className="mb-4 rounded-full overflow-hidden mx-auto w-32 h-32">
-                  <Image src="/monika.webp" alt="Professor" className="w-full h-full object-cover"   height={50}
-                  width={50}/>
+                  <Image src="/monika.webp" alt="Professor" className="w-full h-full object-cover"    width={128}
+      height={128}/>
                 </div>
                 <h3 className="font-bold text-lg">Dr. Monika Khatkar</h3>
                 <p className="text-blue-800">Assistant Professor – Engineering & Technology</p>
@@ -766,13 +779,14 @@ export default function Home() {
                 </form> */}
                 
               <div className="bg-white/10 backdrop-blur-sm rounded-lg">
-                <Image
-                  src="/krmu.jpg" 
-                  alt="KR Mangalam University Campus" 
-                  className="rounded-lg w-150 h-100 shadow-lg"
-                  height={100}
-                  width={150}
-                />
+              <Image
+    src="/krmu.jpg"
+    alt="KR Mangalam University Campus"
+    className="rounded-lg shadow-lg"
+    width={600}
+    height={400} // use actual image size or close to it
+  />
+
               
             </div>
               </div>
