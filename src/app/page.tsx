@@ -889,7 +889,7 @@ export default function Home() {
           </div>
 
           <div className="pt-8 border-t border-blue-800 text-center text-blue-200">
-            <p>&copy; {new Date().getFullYear()} KR Mangalam University. All Rights Reserved.</p>
+            <p>This project is developed by Rishabh Rajput & Khushnam Chauhan | &copy; {new Date().getFullYear()} KR Mangalam University. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
