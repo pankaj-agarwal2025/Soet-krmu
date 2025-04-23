@@ -175,131 +175,262 @@ export default function Home() {
 
         {/* Programs Section */}
         <section id="programs" className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-blue-900 mb-2">Our Programs</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Discover the diverse range of undergraduate and postgraduate programs offered by the School of Engineering and Technology.
-              </p>
-            </div>
+        <div className="container mx-auto px-4">
+  <div className="text-center mb-12">
+    <h2 className="text-3xl font-bold text-blue-900 mb-2">Our Programs</h2>
+    <p className="text-gray-600 max-w-2xl mx-auto">
+      Discover the diverse range of undergraduate and postgraduate programs offered by KRMU (Krishna River Management University) in various engineering and technology fields.
+    </p>
+  </div>
 
-            <Tabs defaultValue="undergraduate" className="max-w-4xl mx-auto">
-              <TabsList className="grid w-full grid-cols-2 mb-8">
-                <TabsTrigger value="undergraduate">Undergraduate Programs</TabsTrigger>
-                <TabsTrigger value="postgraduate">Postgraduate Programs</TabsTrigger>
-              </TabsList>
-              <TabsContent value="undergraduate">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>B.Tech in Computer Science</CardTitle>
-                      <CardDescription>4-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Comprehensive program covering software development, algorithms, data structures, AI/ML, and more with industry-oriented projects.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>B.Tech in Electronics & Communication</CardTitle>
-                      <CardDescription>4-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Focus on electronic systems, communication networks, embedded systems, and signal processing with hands-on lab experience.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>B.Tech in Mechanical Engineering</CardTitle>
-                      <CardDescription>4-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Study thermodynamics, manufacturing, design engineering, and automation with access to advanced simulation tools.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>B.Tech in Civil Engineering</CardTitle>
-                      <CardDescription>4-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Learn structural engineering, construction management, environmental engineering, and infrastructure planning.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                </div>
-              </TabsContent>
-              <TabsContent value="postgraduate">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>M.Tech in Computer Science</CardTitle>
-                      <CardDescription>2-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Advanced studies in distributed systems, cybersecurity, cloud computing, and emerging technologies with research opportunities.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>M.Tech in Data Science</CardTitle>
-                      <CardDescription>2-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Specialized program covering big data analytics, machine learning, statistical analysis, and data visualization techniques.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>M.Tech in IoT & Embedded Systems</CardTitle>
-                      <CardDescription>2-Year Full-Time Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Focus on connected devices, sensor networks, embedded programming, and smart system design with industry collaborations.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                  
-                  <Card>
-                    <CardHeader>
-                      <CardTitle>Ph.D. in Engineering</CardTitle>
-                      <CardDescription>Research Program</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p>Doctoral research opportunities across multiple engineering disciplines with dedicated mentorship and funding options.</p>
-                    </CardContent>
-                    <CardFooter>
-                      {/* <Button variant="outline" className="w-full">View Details</Button> */}
-                    </CardFooter>
-                  </Card>
-                </div>
-              </TabsContent>
-            </Tabs>
-          </div>
+  <Tabs defaultValue="undergraduate" className="max-w-5xl mx-auto">
+    <TabsList className="grid w-full grid-cols-2 mb-8">
+      <TabsTrigger value="undergraduate">Undergraduate Programs</TabsTrigger>
+      <TabsTrigger value="postgraduate">Postgraduate Programs</TabsTrigger>
+    </TabsList>
+    <TabsContent value="undergraduate">
+      <div className="grid md:grid-cols-3 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program at KRMU covers the fundamentals of software development, algorithms, data structures, AI/ML, and more, with a focus on preparing students for real-world challenges in the tech industry.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (AI & ML) with academic support of IBM & powered by Microsoft</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program focuses on the integration of AI/ML with software engineering, offering hands-on experience with tools and technologies from industry leaders like IBM and Microsoft.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (Full Stack Development) with academic support of ImaginXP</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Gain expertise in full stack development with KRMU's specialized program supported by ImaginXP, ensuring industry-ready skills in both frontend and backend technologies.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (UX/UI) with academic support of ImaginXP</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Specialize in UX/UI design while gaining a deep understanding of the technical and creative aspects of creating user-friendly digital interfaces at KRMU.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (Cyber Security) with academic support of EC-Council and IBM</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Prepare for a career in cybersecurity with this program that combines theoretical knowledge and practical skills, supported by leading industry bodies like EC-Council and IBM.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (Data Science) with academic support of IBM</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Unlock the power of data with KRMU's Data Science program, covering everything from big data analysis to machine learning, with academic backing from IBM.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Tech. Computer Science and Engineering (Robotics & AI) with academic support of IBM & powered by Microsoft</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Get a comprehensive understanding of robotics and AI technologies, with hands-on learning opportunities provided in collaboration with IBM and Microsoft.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>BCA (AI & Data Science) with academic support of IBM & powered by Microsoft Certifications</CardTitle>
+            <CardDescription>3-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program focuses on AI and data science, combining theory with practice and certified support from industry leaders like IBM and Microsoft.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>BCA (Hons. / Hons. with Research) AI & Data Science with academic support of IBM & powered by Microsoft Certifications</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This honors program combines AI & data science with research opportunities, backed by certifications from IBM and Microsoft.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>BCA (Cyber Security) with Academic support of EC-Council</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Focus on cybersecurity concepts and practices with academic support from EC-Council, ensuring industry readiness for handling modern security challenges.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>BCA (Hons./ Hons. with Research) Cyber Security with Academic support of EC-Council</CardTitle>
+            <CardDescription>4-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program combines the rigor of research with advanced cybersecurity training, preparing students for a dynamic career in the security domain.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Sc. (Hons.) Computer Science with academic support of IBM</CardTitle>
+            <CardDescription>3-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program combines computer science fundamentals with hands-on experience, guided by academic support from IBM to prepare students for a future in tech.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Sc. (Hons.) Cyber Security</CardTitle>
+            <CardDescription>3-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Learn to protect systems, networks, and data from cyber threats in KRMU's comprehensive cybersecurity program.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>B.Sc. (Hons.) Data Science</CardTitle>
+            <CardDescription>3-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Master data analysis techniques with KRMU's Data Science program, which covers statistics, machine learning, and data visualization.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+      </div>
+    </TabsContent>
+    <TabsContent value="postgraduate">
+      <div className="grid md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle>M.Tech. Computer Science and Engineering</CardTitle>
+            <CardDescription>2-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This advanced program offers specializations in distributed systems, cybersecurity, cloud computing, and more, with research opportunities in emerging technologies.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>M.Tech. in Automobile Engineering</CardTitle>
+            <CardDescription>2-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This program focuses on cutting-edge technologies in automobile engineering, with applications of big data analytics, machine learning, and statistical analysis.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>MCA (AI & ML) with academic support of IBM and powered by Microsoft Certifications</CardTitle>
+            <CardDescription>2-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>This postgraduate program offers a deep dive into AI and machine learning, with academic support and certifications from IBM and Microsoft.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <CardTitle>MCA</CardTitle>
+            <CardDescription>2-Year Full-Time Program</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Explore advanced research opportunities in the field of computer applications and engineering, with mentorship from industry experts.</p>
+          </CardContent>
+          <CardFooter>
+            {/* <Button variant="outline" className="w-full">View Details</Button> */}
+          </CardFooter>
+        </Card>
+      </div>
+    </TabsContent>
+  </Tabs>
+</div>
+
         </section>
 
         {/* Three Portals Section */}
@@ -379,7 +510,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://cdc-portal-zv4g.onrender.com">
+                  <Link href="https://cdc.soet-krmu.com/">
                   <Button className="w-full bg-green-600 hover:bg-green-700">
                     Access CDC Portal
                   </Button></Link>
@@ -416,7 +547,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://ams-krmu-thakranrishi94s-projects.vercel.app/">
+                  <Link href="https://alumini.soet-krmu.com/">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
                     Access Alumni Portal
                   </Button></Link>
@@ -565,7 +696,7 @@ export default function Home() {
                   </p>
                   <p className="flex items-center">
                     <span className="mr-3">📞</span>
-                    <span>+91 124 2867600</span>
+                    <span>01148884888</span>
                   </p>
                   <p className="flex items-center">
                     <span className="mr-3">✉️</span>
@@ -670,7 +801,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-blue-200 mb-4">
-                Shaping tomorrow leaders with quality education and values since 1995.
+                Shaping tomorrow leaders with quality education and values since 2013.
               </p>
               <div className="flex space-x-4">
                 <a href="https://www.facebook.com/krmuniv/" className="text-white hover:text-blue-200">
@@ -731,7 +862,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-3">📞</span>
-                  <span>+91 124 2867600</span>
+                  <span>01148884888</span>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-3">✉️</span>
