@@ -433,7 +433,7 @@ export default function Home() {
 
         </section>
 
-        {/* Three Portals Section */}
+        {/* Four Portals Section */}
         <section id="portals" className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
@@ -474,9 +474,11 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
+                <Link href="https://projects.soet-krmu.com/">
                   <Button className="w-full bg-blue-600 hover:bg-blue-700">
                     Access Project & Internship Management Portal
                   </Button>
+                  </Link>
                 </CardFooter>
               </Card>
 
@@ -582,7 +584,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://krmu-enrollment.vercel.app/counsellor/login">
+                  <Link href="https://admitdesk.soet-krmu.com/">
                   <Button  className="w-full bg-purple-600 hover:bg-purple-700">
                     Access Counselor Portal
                   </Button></Link>
