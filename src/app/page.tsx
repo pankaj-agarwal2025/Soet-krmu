@@ -222,7 +222,7 @@ export default function Home() {
             <CardDescription>4-Year Full-Time Program</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Gain expertise in full stack development with KRMU's specialized program supported by ImaginXP, ensuring industry-ready skills in both frontend and backend technologies.</p>
+            <p>{"Gain expertise in full stack development with KRMU's specialized program supported by ImaginXP, ensuring industry-ready skills in both frontend and backend technologies."}            </p>
           </CardContent>
           <CardFooter>
             {/* <Button variant="outline" className="w-full">View Details</Button> */}
@@ -261,7 +261,7 @@ export default function Home() {
             <CardDescription>4-Year Full-Time Program</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Unlock the power of data with KRMU's Data Science program, covering everything from big data analysis to machine learning, with academic backing from IBM.</p>
+            <p>{"Unlock the power of data with KRMU's Data Science program, covering everything from big data analysis to machine learning, with academic backing from IBM."}</p>
           </CardContent>
           <CardFooter>
             {/* <Button variant="outline" className="w-full">View Details</Button> */}
@@ -352,7 +352,7 @@ export default function Home() {
             <CardDescription>3-Year Full-Time Program</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Learn to protect systems, networks, and data from cyber threats in KRMU's comprehensive cybersecurity program.</p>
+            <p>{"Learn to protect systems, networks, and data from cyber threats in KRMU's comprehensive cybersecurity program."}</p>
           </CardContent>
           <CardFooter>
             {/* <Button variant="outline" className="w-full">View Details</Button> */}
@@ -365,7 +365,7 @@ export default function Home() {
             <CardDescription>3-Year Full-Time Program</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Master data analysis techniques with KRMU's Data Science program, which covers statistics, machine learning, and data visualization.</p>
+            <p>{"Master data analysis techniques with KRMU's Data Science program, which covers statistics, machine learning, and data visualization."}</p>
           </CardContent>
           <CardFooter>
             {/* <Button variant="outline" className="w-full">View Details</Button> */}
