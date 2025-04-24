@@ -1,4 +1,3 @@
-// app/page.jsx
 'use client';
 
 import { useState } from 'react';
@@ -52,11 +51,11 @@ export default function Home() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#" className="hover:text-blue-200 transition duration-200">Home</a>
-            <a href="#projects" className="hover:text-blue-200 transition duration-200">Developers</a>
-            <a href="#portals" className="hover:text-blue-200 transition duration-200">Portals</a>
-            <a href="#faculty" className="hover:text-blue-200 transition duration-200">Faculty</a>
-            <a href="#contact" className="hover:text-blue-200 transition duration-200">Contact</a>
+            <a href="#" target="_blank" className="hover:text-blue-200 transition duration-200">Home</a>
+            <a href="#projects" target="_blank" className="hover:text-blue-200 transition duration-200">Developers</a>
+            <a href="#portals" target="_blank" className="hover:text-blue-200 transition duration-200">Portals</a>
+            <a href="#faculty" target="_blank" className="hover:text-blue-200 transition duration-200">Faculty</a>
+            <a href="#contact" target="_blank" className="hover:text-blue-200 transition duration-200">Contact</a>
             {/* <Button className="bg-yellow-500 hover:bg-yellow-600 text-blue-900">Apply Now</Button> */}
           </nav>
 
@@ -72,12 +71,12 @@ export default function Home() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-blue-800 p-4">
             <nav className="flex flex-col space-y-3">
-              <a href="#" className="hover:text-blue-200 transition duration-200 py-2">Home</a>
-              <a href="#about" className="hover:text-blue-200 transition duration-200 py-2">About</a>
-              <a href="#programs" className="hover:text-blue-200 transition duration-200 py-2">Programs</a>
-              <a href="#faculty" className="hover:text-blue-200 transition duration-200 py-2">Faculty</a>
-              <a href="#portals" className="hover:text-blue-200 transition duration-200 py-2">Portals</a>
-              <a href="#contact" className="hover:text-blue-200 transition duration-200 py-2">Contact</a>
+              <a href="#" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">Home</a>
+              <a href="#about" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">About</a>
+              <a href="#programs" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">Programs</a>
+              <a href="#faculty" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">Faculty</a>
+              <a href="#portals" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">Portals</a>
+              <a href="#contact" target="_blank" className="hover:text-blue-200 transition duration-200 py-2">Contact</a>
               {/* <Button className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 w-full">Apply Now</Button> */}
             </nav>
           </div>
@@ -181,7 +180,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Khushnam Chauhan</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/khushnam-chauhan-58b25a2a5/"}>
+                      <Link href={"https://www.linkedin.com/in/khushnam-chauhan-58b25a2a5/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -201,7 +200,7 @@ export default function Home() {
                         </Avatar>
                       </div>
                       <p className="font-medium">Apoorva Sharma</p>
-                      <p className="text-xs text-gray-500">MCA 2023-2025 </p> <Link href={"https://www.linkedin.com/in/apoorva-sharma-226861166/"}>
+                      <p className="text-xs text-gray-500">MCA 2023-2025 </p> <Link href={"https://www.linkedin.com/in/apoorva-sharma-226861166/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -242,7 +241,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Rishabh Rajput</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/rishabh-rajput-727417207/"}>
+                      <Link href={"https://www.linkedin.com/in/rishabh-rajput-727417207/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -264,7 +263,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Manisha Swain</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/manisha-swain-4717722b8/"}>
+                      <Link href={"https://www.linkedin.com/in/manisha-swain-4717722b8/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -303,7 +302,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Dhananjay Munda</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/dhananjay-munda-5a79331b5/"}>
+                      <Link href={"https://www.linkedin.com/in/dhananjay-munda-5a79331b5/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -323,7 +322,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Priya Dhuan</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/priya-duhan-9a7523240"}>
+                      <Link href={"https://www.linkedin.com/in/priya-duhan-9a7523240"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -364,7 +363,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Dimple Tanwar Rajput</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/dimpletanwar15/"}>
+                      <Link href={"https://www.linkedin.com/in/dimpletanwar15/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -384,7 +383,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Ankush</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/ankush-kumar-54b676232/"}>
+                      <Link href={"https://www.linkedin.com/in/ankush-kumar-54b676232/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -423,7 +422,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Palak Jain</p>
                       <p className="text-xs text-gray-500">Bsc Hons CS 2022-2025</p>
-                      <Link href={"https://www.linkedin.com/in/palak-jain-6961722b1/"}>
+                      <Link href={"https://www.linkedin.com/in/palak-jain-6961722b1/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -443,7 +442,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Purvi Singhal</p>
                       <p className="text-xs text-gray-500">Bsc Hons DS 2022-2025</p>
-                      <Link href={"https://www.linkedin.com/in/purvi-singhal-94b9a724a/"}>
+                      <Link href={"https://www.linkedin.com/in/purvi-singhal-94b9a724a/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -484,7 +483,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Rishabh Rajput</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/rishabh-rajput-727417207/"}>
+                      <Link href={"https://www.linkedin.com/in/rishabh-rajput-727417207/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -505,7 +504,7 @@ export default function Home() {
                       </div>
                       <p className="font-medium">Khushnam Chauhan</p>
                       <p className="text-xs text-gray-500">MCA 2023-2025</p>
-                      <Link href={"https://www.linkedin.com/in/khushnam-chauhan-58b25a2a5/"}>
+                      <Link href={"https://www.linkedin.com/in/khushnam-chauhan-58b25a2a5/"} target="_blank">
                         <Button variant="ghost" size="icon" className="text-gray-600 hover:text-blue-600">
                           <Linkedin size={20} />
                         </Button></Link>
@@ -521,7 +520,7 @@ export default function Home() {
         {/* Four Portals Section */}
         <section id="portals" className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
+            <div className="text-center mb-12 |">
               <h2 className="text-3xl font-bold text-blue-900 mb-2">SOET Portals</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Access our integrated digital platforms designed to enhance your academic journey and professional connections.
@@ -559,7 +558,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://projects.soet-krmu.com/">
+                  <Link href="https://projects.soet-krmu.com/" target="_blank">
                     <Button className="w-full bg-blue-600 hover:bg-blue-700">
                       Access Project & Internship Management Portal
                     </Button>
@@ -597,7 +596,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://cdc.soet-krmu.com/">
+                  <Link href="https://cdc.soet-krmu.com/" target="_blank">
                     <Button className="w-full bg-green-600 hover:bg-green-700">
                       Access CDC Portal
                     </Button></Link>
@@ -634,7 +633,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://alumini.soet-krmu.com/">
+                  <Link href="https://alumini.soet-krmu.com/" target="_blank">
                     <Button className="w-full bg-purple-600 hover:bg-purple-700">
                       Access Alumni Portal
                     </Button></Link>
@@ -669,7 +668,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://fth.offaxial.com">
+                  <Link href="https://fth.offaxial.com" target="_blank">
                     <Button className="w-full bg-purple-600 hover:bg-purple-700">
                       Access Counselor/Teacher Portal
                     </Button></Link>
@@ -706,7 +705,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://cdc.soet-krmu.com/">
+                  <Link href="https://cdc.soet-krmu.com/" target="_blank">
                     <Button className="w-full bg-green-600 hover:bg-green-700">
                       Access FTH Portal
                     </Button></Link>
@@ -835,31 +834,31 @@ export default function Home() {
 
                 <h3 className="text-xl font-bold text-blue-900 mt-8 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <a href="https://www.facebook.com/krmuniv/" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
+                  <a href="https://www.facebook.com/krmuniv/" target="_blank" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </a>
-                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Fkrmuniversity" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Fkrmuniversity" target="_blank" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.00005C3 4.00005 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/school/krmuniv/posts/?feedView=all" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
+                  <a href="https://www.linkedin.com/school/krmuniv/posts/?feedView=all" target="_blank" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M6 9H2V21H6V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </a>
-                  <a href="https://www.instagram.com/krmuniv" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
+                  <a href="https://www.instagram.com/krmuniv" target="_blank" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M16 11.37C16.1234 12.2022 15.9813 13.0522 15.5938 13.799C15.2063 14.5458 14.5931 15.1514 13.8416 15.5297C13.0901 15.9079 12.2384 16.0396 11.4078 15.9059C10.5771 15.7723 9.80976 15.3801 9.21484 14.7852C8.61992 14.1902 8.22773 13.4229 8.09407 12.5922C7.9604 11.7615 8.09207 10.9099 8.47033 10.1584C8.84859 9.40685 9.45419 8.79374 10.201 8.40624C10.9478 8.01874 11.7978 7.87658 12.63 8C13.4789 8.12588 14.2649 8.52146 14.8717 9.1283C15.4785 9.73515 15.8741 10.5211 16 11.37Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M17.5 6.5H17.51" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </a>
-                  <a href="https://www.youtube.com/@KRMangalamUniversity" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
+                  <a href="https://www.youtube.com/@KRMangalamUniversity" target="_blank" className="bg-blue-900 text-white p-2 rounded-full hover:bg-blue-700 transition">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M22.54 6.42C22.4212 5.94541 22.1793 5.51057 21.8387 5.15941C21.498 4.80824 21.0708 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.12 4 3.4 4.46C2.92925 4.59318 2.50198 4.84824 2.16137 5.19941C1.82075 5.55057 1.57878 5.98541 1.46 6.46C1.14521 8.20556 0.991235 9.97631 1 11.75C0.988687 13.537 1.14266 15.3213 1.46 17.08C1.59096 17.5398 1.83831 17.9581 2.17214 18.2945C2.50597 18.6308 2.92572 18.8738 3.4 19C5.12 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0708 18.8668 21.498 18.6118 21.8387 18.2606C22.1793 17.9094 22.4212 17.4746 22.54 17C22.8524 15.2676 23.0063 13.5103 23 11.75C23.0113 9.96295 22.8573 8.1787 22.54 6.42Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M9.75 15.02L15.5 11.75L9.75 8.48001V15.02Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -934,24 +933,24 @@ export default function Home() {
                 Shaping tomorrow leaders with quality education and values since 2013.
               </p>
               <div className="flex space-x-4">
-                <a href="https://www.facebook.com/krmuniv/" className="text-white hover:text-blue-200">
+                <a href="https://www.facebook.com/krmuniv/" target="_blank" className="text-white hover:text-blue-200">
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"></path>
+                    <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5. INTERNALSYNC92 10 7V10H7V14H10VInternalsync2H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"></path>
                   </svg>
                 </a>
-                <a href="https://x.com/i/flow/login?redirect_after_login=%2Fkrmuniversity" className="text-white hover:text-blue-200">
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2Fkrmuniversity" target="_blank" className="text-white hover:text-blue-200">
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.00005C3 4.00005 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005Z"></path>
                   </svg>
                 </a>
-                <a href="https://www.instagram.com/krmuniv" className="text-white hover:text-blue-200">
+                <a href="https://www.instagram.com/krmuniv" target="_blank" className="text-white hover:text-blue-200">
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                     <path d="M16 11.37C16.1234 12.2022 15.9813 13.0522 15.5938 13.799C15.2063 14.5458 14.5931 15.1514 13.8416 15.5297C13.0901 15.9079 12.2384 16.0396 11.4078 15.9059C10.5771 15.7723 9.80976 15.3801 9.21484 14.7852C8.61992 14.1902 8.22773 13.4229 8.09407 12.5922C7.9604 11.7615 8.09207 10.9099 8.47033 10.1584C8.84859 9.40685 9.45419 8.79374 10.201 8.40624C10.9478 8.01874 11.7978 7.87658 12.63 8C13.4789 8.12588 14.2649 8.52146 14.8717 9.1283C15.4785 9.73515 15.8741 10.5211 16 11.37Z"></path>
                     <circle cx="17.5" cy="6.5" r="1.5"></circle>
                   </svg>
                 </a>
-                <a href="https://www.linkedin.com/school/krmuniv/posts/?feedView=all" className="text-white hover:text-blue-200">
+                <a href="https://www.linkedin.com/school/krmuniv/posts/?feedView=all" target="_blank" className="text-white hover:text-blue-200">
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z"></path>
                     <path d="M6 9H2V21H6V9Z"></path>
@@ -964,22 +963,22 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-blue-200 hover:text-white transition">About University</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Admissions</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Academic Calendar</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Research</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Careers</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">About University</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Admissions</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Academic Calendar</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Research</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Careers</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-lg font-bold mb-4">SOET Departments</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Computer Science & Engineering</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Electrical & Electronics Engineering</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Mechanical Engineering</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Civil Engineering</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition">Data Science & AI</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Computer Science & Engineering</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Electrical & Electronics Engineering</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Mechanical Engineering</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Civil Engineering</a></li>
+                <li><a href="#" target="_blank" className="text-blue-200 hover:text-white transition">Data Science & AI</a></li>
               </ul>
             </div>
 
@@ -1003,7 +1002,7 @@ export default function Home() {
           </div>
 
           <div className="pt-8 border-t border-blue-800 text-center text-blue-200">
-            <p>This project is developed by Rishabh Rajput & Khushnam Chauhan | &copy; {new Date().getFullYear()} KR Mangalam University. All Rights Reserved.</p>
+            <p>This project is developed by Rishabh Rajput & Khushnam Chauhan | © {new Date().getFullYear()} KR Mangalam University. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
