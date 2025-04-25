@@ -877,7 +877,7 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="https://alumini.soet-krmu.com/" target="_blank">
+                  <Link href="https://alumni.soet-krmu.com/" target="_blank">
                     <Button className="w-full bg-purple-600 hover:bg-purple-700">
                       Access Alumni Portal
                     </Button>
