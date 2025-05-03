@@ -53,35 +53,30 @@ export default function Home() {
           <nav className="hidden md:flex items-center space-x-6">
             <a
               href="#"
-              target="_blank"
               className="hover:text-blue-200 transition duration-200"
             >
               Home
             </a>
             <a
               href="#projects"
-              target="_blank"
               className="hover:text-blue-200 transition duration-200"
             >
               Developers
             </a>
             <a
               href="#portals"
-              target="_blank"
               className="hover:text-blue-200 transition duration-200"
             >
               Portals
             </a>
             <a
               href="#faculty"
-              target="_blank"
               className="hover:text-blue-200 transition duration-200"
             >
               Faculty
             </a>
             <a
               href="#contact"
-              target="_blank"
               className="hover:text-blue-200 transition duration-200"
             >
               Contact
